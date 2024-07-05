@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .main-container {
+    display: flex;
+    align-items: center;
+    margin: 50px;
+  }
+  
+  #editor-input-container {
+    position: relative;
+  }
+  
+  .editor-input {
+    outline: none;
+    position: relative;
+  }
+  
+  .editor-input:empty::before {
+    content: attr(data-placeholder);
+    color: #888;
+    pointer-events: none;
+  }
+  
+  .filter-key-number {
+    background-color: #2066ae;
+    padding:2px;
+    border-radius: 3px;
+    color: white;
+  }
+  
+  .add-block {
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 300px;
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+    background: white;
+  }
+  
+  .add-block .add-block-header {
+    padding: 20px;
+  }
+  
+  .add-block .add-block-text {
+    margin-top: 0;
+    font-size: 19px;
+    color: #212731;
+  }
+  
+  .add-block-header-filter-text {
+    margin-top: -10px;
+    color: #dfe1e5;
+    font-size: 15px;
+  }
+  
+  .add-block-header-filter-keyword {
+    color: #757b88;
+  }
+  
+  .add-block p {
+    color: gray;
+  }
+  
+  .add-block .commands-list {
+    list-style: none;
+    padding: 0 !important;
+    margin-top: -20px;
+  }
+  
+  .add-block .commands-list .single-command {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .add-block .commands-list .single-command .single-command-text-icon h1 {
+    margin-right: 15px;
+    font-family: none;
+    color: #9ea5b1;
+    font-weight: 500;
+  }
+  
+  .add-block .commands-list .single-command .single-command-text h1 {
+    font-size: 15px;
+    color: #141a24;
+  }
+  
+  .add-block .commands-list .single-command .single-command-text p {
+    font-size: 14px;
+    margin-top: 0;
+    margin-top: -6px !important;
+    color: #5c6169;
+    font-weight: 500;
+  }
+  
+  .add-block .commands-list .single-command:hover {
+    background-color: #f3f4f6;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .h1-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .h1-wrapper .icon {
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .editor-input input[type="text"] {
+    font-size: 2em;
+    font-weight: bold;
+    width: 100%;
+    border: none;
+    outline: none;
+  }
+  
+  .expandable-content {
+    display: none; 
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .expandable-h1-wrapper.active .expandable-content {
+    display: block; 
+  }
+  
+  .h1-input::placeholder {
+    color: #d1d5db;
+  }
