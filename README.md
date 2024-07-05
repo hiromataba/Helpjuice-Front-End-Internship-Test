@@ -55,3 +55,7 @@ Give a ⭐️ if you like this project! ❤️ ❤️ ❤️
 ## Acknowledgments
 
 - [HelpJuice](https://helpjuice.com)
+- Emil Hajric
+- 
+- Menna Adel
+
