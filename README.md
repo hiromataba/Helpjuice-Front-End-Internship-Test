@@ -56,6 +56,5 @@ Give a ⭐️ if you like this project! ❤️ ❤️ ❤️
 
 - [HelpJuice](https://helpjuice.com)
 - Emil Hajric
-- 
 - Menna Adel
 
