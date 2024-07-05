@@ -18,7 +18,7 @@
 
 ## See Live
 
-[Live Demo]()
+[Live Demo](https://notion-like-editor.netlify.app/)
 
 
 ## Getting Started
