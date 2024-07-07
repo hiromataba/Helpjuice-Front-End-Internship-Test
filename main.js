@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
       } else {
         editorInput.classList.remove('empty');
       }
-      checkCommand(); // Check command state on every input change
+      checkCommand();
     }
   
     function handleDocumentClick(event) {
